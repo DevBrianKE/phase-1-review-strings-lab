@@ -1,11 +1,12 @@
-// Define the currentUser variable
-const currentUser = "Brian"; // Change this to any name you want
+// Define the currentUser variable as a non-empty string
+const currentUser = "Brian"; // You can replace "Brian" with any name
 
-// Construct welcomeMessage
+// Define the welcomeMessage variable
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 
-// Construct excitedWelcomeMessage (uppercase version)
+// Define the excitedWelcomeMessage variable
 const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()}!`;
 
-// Construct shortGreeting (only first initial)
+// Define the shortGreeting variable
 const shortGreeting = `Welcome, ${currentUser[0]}!`;
+
