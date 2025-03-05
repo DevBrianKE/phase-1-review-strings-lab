@@ -1,9 +1,11 @@
-// Write your code in this file!
-const currentUser = 'DevBrianKe'
+// Define the currentUser variable
+const currentUser = "Brian"; // Change this to any name you want
 
-const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`
+// Construct welcomeMessage
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 
-const excitedWelcomeMessage = welcomeMessage.toUpperCase()
+// Construct excitedWelcomeMessage (uppercase version)
+const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()}!`;
 
-const shortGreeting = `Welcome, ${currentUser.slice(0,1)}!`
-console.log(shortGreeting)
+// Construct shortGreeting (only first initial)
+const shortGreeting = `Welcome, ${currentUser[0]}!`;
